@@ -1,0 +1,17 @@
+{
+    "name": "core/php-plug-business",
+    "description": "Business platform integrations for the Plug framework",
+    "type": "library",
+    "license": "EUPL-1.2",
+    "require": {
+        "php": "^8.2",
+        "core/php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Plug\\Business\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
